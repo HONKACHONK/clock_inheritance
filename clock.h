@@ -17,13 +17,13 @@ public:
 	Gets the hours of the clock
 	@return hours in military or am/pm format
 	*/
-	int get_hours() const;
+	virtual int get_hours() const;
 
 	/**
 	Gets the minutes of the clock
 	@return minutes in military or am/pm format
 	*/
-	int get_minutes() const;
+	virtual int get_minutes() const;
 
 	/**
 	Checks whether this clock is using military format
@@ -35,7 +35,7 @@ public:
 	Gets the location of this clock
 	@return the location
 	*/
-	string get_location() const;
+	virtual string get_location() const;
 private:
 	bool military;
 };
