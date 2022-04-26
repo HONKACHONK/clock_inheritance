@@ -23,7 +23,7 @@ public:
 	Gets the minutes of the clock
 	@return minutes in military or am/pm format
 	*/
-	virtual int get_minutes() const;
+	int get_minutes() const;
 
 	/**
 	Checks whether this clock is using military format
